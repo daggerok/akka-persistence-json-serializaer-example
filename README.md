@@ -67,6 +67,17 @@ _build, run and test current sample:_
 cat target/persistence-snapshots/snapshot-*
 ```
 
+resources:
+
+- https://doc.akka.io/docs/akka/current/serialization.html
+- https://doc.akka.io/docs/akka/2.5.2/java/serialization.html
+- https://doc.akka.io/docs/akka/current/persistence.html
+- https://doc.akka.io/docs/akka/snapshot/serialization-jackson.html
+- https://doc.akka.io/docs/akka/1.2/scala/serialization.html
+- https://index.scala-lang.org/nextgentel/akka-tools/akka-tools-jdbc-journal/1.1.0
+- https://github.com/lagom/lagom/blob/master/jackson/src/main/resources/reference.conf
+- [YouTube: Persistent Actor State](https://www.youtube.com/watch?v=QBj_N1DeRLs&list=PLMhMDErmC1TdBMxd3KnRfYiBV2ELvLyxN&index=41)
+
 ## generated (original) README.md 
 This tutorial contains examples that illustrate a subset of[Akka Persistence](http://doc.akka.io/docs/akka/2.5/scala/persistence.html) features.
 
