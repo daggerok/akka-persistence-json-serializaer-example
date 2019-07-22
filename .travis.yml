@@ -35,14 +35,14 @@ jobs:
     - stage: test
       jdk: openjdk8
       name: test openjdk8
-      script: cd $TRAVIS_BUILD_DIR/main-akka/ && ./sbtw clean "runMain com.github.daggerok.akka.persistence.PersistentActorExample" clean "runMain com.github.daggerok.akka.persistence.PersistentActorFailureExample" clean "runMain com.github.daggerok.akka.persistence.SnapshotExample"
+      script: cd $TRAVIS_BUILD_DIR/ && ./sbtw clean "runMain com.github.daggerok.akka.persistence.PersistentActorExample" clean "runMain com.github.daggerok.akka.persistence.PersistentActorFailureExample" clean "runMain com.github.daggerok.akka.persistence.SnapshotExample"
     - stage: test
       jdk: openjdk11
       name: test openjdk11
       script:
-        - cd $TRAVIS_BUILD_DIR/main-akka/
-        - ./sbtw clean "runMain com.github.daggerok.akka.persistence.PersistentActorExample" \
-                 clean "runMain com.github.daggerok.akka.persistence.PersistentActorFailureExample" \
+        - cd $TRAVIS_BUILD_DIR/
+        - ./sbtw clean "runMain com.github.daggerok.akka.persistence.PersistentActorExample"
+                 clean "runMain com.github.daggerok.akka.persistence.PersistentActorFailureExample"
                  clean "runMain com.github.daggerok.akka.persistence.SnapshotExample"
         - cat target/persistence-snapshots/snapshot-*
 cache:

@@ -1,4 +1,4 @@
-# akka-persistence-json-serializaer-example
+# akka-persistence-json-serializaer-example [![Build Status](https://travis-ci.org/daggerok/akka-persistence-json-serializaer-example.svg?branch=master)](https://travis-ci.org/daggerok/akka-persistence-json-serializaer-example)
 This example demonstrate how to setup akka jackson JSON serialization integration
 
 _update `build.sbt` file:_
