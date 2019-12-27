@@ -67,7 +67,11 @@ _build, run and test current sample:_
 cat target/persistence-snapshots/snapshot-*
 ```
 
-resources:
+## othrer reposaitories
+
+- https://github.com/daggerok/akka-persistence-examples
+
+## resources
 
 - https://doc.akka.io/docs/akka/current/serialization.html
 - https://doc.akka.io/docs/akka/2.5.2/java/serialization.html
